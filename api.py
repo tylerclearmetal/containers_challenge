@@ -79,9 +79,9 @@ class VesselPlan(Resource):
         return new_vessel_plan
 
 
-api.add_resource(Containers, '/containers')
-api.add_resource(Vessels, '/vessels')
-api.add_resource(VesselPlan, '/vessel_plans')
+api.add_resource(Containers, '/api/containers')
+api.add_resource(Vessels, '/api/vessels')
+api.add_resource(VesselPlan, '/api/vessel_plans')
 
 if __name__ == '__main__':
     app.run(debug=True, port=8000)

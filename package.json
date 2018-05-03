@@ -5,12 +5,17 @@
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^1.1.4"
   },
   "scripts": {
+    "app": "concurrently --names \"API,CLIENT\" --prefix-colors \"magenta.bold,green.bold\" --kill-others \"python api.py\" \"yarn start\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  },
+  "proxy": "http://localhost:8000"
 }
