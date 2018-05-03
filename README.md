@@ -15,8 +15,7 @@ Imagine you work at a port and are in charge of vessel allocations. Each day, yo
  This is designed to be a fairly open ended challenge.  You shouldn't need to spend more than a couple hours on it.
  We are mainly testing for code design/quality, but we are also interested in your UI design.
 
- We use React (+ Redux) for our frontend at ClearMetal. While you can implement this challenge using any language/library,
- we encourage you to use React if you feel comfortable doing so.  
+ We use React (+ Redux) for our frontend at ClearMetal. While you can implement this challenge using the approach of your choice, we encourage you to use React if you feel comfortable doing so. As such, we have included [create-react-app](https://github.com/facebook/create-react-app) as a working foundation for your solution.
 
 ## API
 ```api.py``` contains a very simple Flask API
